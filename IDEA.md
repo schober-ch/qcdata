@@ -25,7 +25,7 @@ How to do it?
 -------------
 Basic idea of many QM programs: One calculation per folder. Since the program should work **in addition** to how I and many others do their calculations, changes to the folders or changes only saved in a database are not possible. Still, meta-data need to be saved somewhere. 
 
-** XML-file per folder for meta-data ** 
+**XML-file per folder for meta-data:** 
     * Lets define a syntax for qm-meta data (perhaps object-based, e.g. each calculation is an "object" with properties
     * Save this information on a per folder basis to a file (*qm_meta.xml*)
 
