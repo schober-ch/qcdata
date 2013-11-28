@@ -44,7 +44,7 @@ class folders:
     date = ""    # date+time of last change in folder
     files = []   # list of all files in the folder
     folders = [] # list of additional folders, if applicable
-    qmprogram = ""
+    #qmprogram = ""
 
     def __init__(self, foldertuple):
         self.abspath, self.folders, self.files = foldertuple
